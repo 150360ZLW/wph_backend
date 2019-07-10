@@ -521,11 +521,13 @@ router.get('/show', function (req, res, next) {
 
 
 //lfz
+//美妆专区
+
 //轮播接口
 router.get('/banner', function(req, res, next) {
   var arr = [
-    '//h2.appsimg.com/a.appsimg.com/upload/flow/2019/03/01/108/15514477604822.jpg',
-    '//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/05/112/15623116975233.jpg'
+    'http://127.0.0.1:3000/images/meizhuang1/lunbo/01.jpg',
+    'http://127.0.0.1:3000/images/meizhuang1/lunbo/02.jpg'
         
   ]
     res.send(arr)
@@ -535,43 +537,43 @@ router.get('/banner', function(req, res, next) {
 router.get('/category', function(req, res, next) {
   var arr = [
     {
-      imgurl: '//h2.appsimg.com/a.appsimg.com/upload/flow/2019/05/22/113/15585166833107.jpg',
+      imgurl: 'http://127.0.0.1:3000/images/meizhuang1/fenleiliebiao/01.jpg',
       href: ''
     },
     {
-      imgurl: '//h2.appsimg.com/a.appsimg.com/upload/flow/2019/05/22/41/15585167196394.gif',
+      imgurl: 'http://127.0.0.1:3000/images/meizhuang1/fenleiliebiao/02.gif',
       href: ''
     },
     {
-      imgurl: '//h2.appsimg.com/a.appsimg.com/upload/flow/2019/05/22/129/15585170806298.gif',
+      imgurl: 'http://127.0.0.1:3000/images/meizhuang1/fenleiliebiao/03.gif',
       href: ''
     },
     {
-      imgurl: '//h2.appsimg.com/a.appsimg.com/upload/flow/2019/05/22/115/15585170698825.jpg',
+      imgurl: 'http://127.0.0.1:3000/images/meizhuang1/fenleiliebiao/04.jpg',
       href: ''
     },
     {
-      imgurl: '//h2.appsimg.com/a.appsimg.com/upload/flow/2019/05/22/169/15585170547480.jpg',
+      imgurl: 'http://127.0.0.1:3000/images/meizhuang1/fenleiliebiao/05.jpg',
       href: ''
     },
     {
-      imgurl: '//h2.appsimg.com/a.appsimg.com/upload/flow/2019/05/22/197/15585171159765.gif',
+      imgurl: 'http://127.0.0.1:3000/images/meizhuang1/fenleiliebiao/06.gif',
       href: ''
     },
     {
-      imgurl: '//h2.appsimg.com/a.appsimg.com/upload/flow/2019/05/22/69/15585171426569.jpg',
+      imgurl: 'http://127.0.0.1:3000/images/meizhuang1/fenleiliebiao/07.jpg',
       href: ''
     },
     {
-      imgurl: '//h2.appsimg.com/a.appsimg.com/upload/flow/2019/05/22/93/15585171698382.jpg',
+      imgurl: 'http://127.0.0.1:3000/images/meizhuang1/fenleiliebiao/08.jpg',
       href: ''
     },
     {
-      imgurl: '//h2.appsimg.com/a.appsimg.com/upload/flow/2019/05/22/187/15585171973062.jpg',
+      imgurl: 'http://127.0.0.1:3000/images/meizhuang1/fenleiliebiao/09.jpg',
       href: ''
     },
     {
-      imgurl: '//h2.appsimg.com/a.appsimg.com/upload/flow/2019/05/22/163/15585172238251.jpg',
+      imgurl: 'http://127.0.0.1:3000/images/meizhuang1/fenleiliebiao/10.jpg',
       href: ''
     }
 
@@ -582,9 +584,9 @@ router.get('/category', function(req, res, next) {
 //地区馆接口
 router.get('/brandList', function(req, res, next) {
   var arr = [
-    '//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/04/21/15622348801616.png',
-    '//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/04/180/15622349335448.jpg',
-    '//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/04/80/15622349573607.jpg'
+    'http://127.0.0.1:3000/images/meizhuang1/diquguan/01.png',
+    'http://127.0.0.1:3000/images/meizhuang1/diquguan/02.jpg',
+    'http://127.0.0.1:3000/images/meizhuang1/diquguan/03.jpg'
   ]
     res.send(arr)
 });
@@ -594,23 +596,23 @@ router.get('/brandList', function(req, res, next) {
 router.get('/weipinkuaiqiang', function(req, res, next) {
   var arr = [
     {
-      img1: 'https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcimg/2018/10/16/156/217440121539669150498.jpg',
-      img2: 'https://h2.appsimg.com/a.appsimg.com/upload/brandcool/0/f9b56192bbfe42a497875ae810a37a23/10023058/primary.png',
+      img1: 'http://127.0.0.1:3000/images/meizhuang1/weipinkuaiqiang/1_1.jpg',
+      img2: 'http://127.0.0.1:3000/images/meizhuang1/weipinkuaiqiang/1_2.png',
       price: 289
     },
     {
-      img1: 'https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcimg/2019/03/15/140/514384561552632171486.jpg',
-      img2: 'https://h2.appsimg.com/a.appsimg.com/upload/brandcool/0/3e563aec68604ae29c3e765f0b6f8f0f/10020534/primary.png',
+      img1: 'http://127.0.0.1:3000/images/meizhuang1/weipinkuaiqiang/2_1.jpg',
+      img2: 'http://127.0.0.1:3000/images/meizhuang1/weipinkuaiqiang/2_2.png',
       price: 58
     },
     {
-      img1: 'https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcimg/2019/06/11/127/14701041560243567154.jpg',
-      img2: 'https://h2.appsimg.com/a.appsimg.com/upload/brandcool/0/569f15b965d448c2bb8ae49dc8e59aff/10033677/primary.png',
+      img1: 'http://127.0.0.1:3000/images/meizhuang1/weipinkuaiqiang/3_1.jpg',
+      img2: 'http://127.0.0.1:3000/images/meizhuang1/weipinkuaiqiang/3_2.png',
       price: 46
     },
     {
-      img1: 'https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcimg/2019/05/23/32/120305251558599622839.jpg',
-      img2: 'https://h2.appsimg.com/a.appsimg.com/upload/brandcool/0/1aa04c8a09fa4f49a51a5e340b7d04cb/10007180/primary.png',
+      img1: 'http://127.0.0.1:3000/images/meizhuang1/weipinkuaiqiang/4_1.jpg',
+      img2: 'http://127.0.0.1:3000/images/meizhuang1/weipinkuaiqiang/4_2.png',
       price: 159
     }
   ]
@@ -621,27 +623,27 @@ router.get('/weipinkuaiqiang', function(req, res, next) {
 router.get('/cainixihuan', function(req, res, next) {
   var arr = [
     {
-      imgurl:'https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcimg/2019/06/11/46/288568821560246647396_5t.jpg',
+      imgurl:'http://127.0.0.1:3000/images/meizhuang1/cainixihuan/01.jpg',
       title:'海外包包'
     },
     {
-      imgurl:'https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcimg/2019/06/11/160/17066991560243567626_5t.jpg',
+      imgurl:'http://127.0.0.1:3000/images/meizhuang1/cainixihuan/02.jpg',
       title:'面膜'
     },
     {
-      imgurl:'https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcimg/2019/06/06/140/492613971559811192904_5t.jpg',
+      imgurl:'http://127.0.0.1:3000/images/meizhuang1/cainixihuan/03.jpg',
       title:'防晒隔离'
     },
     {
-      imgurl:'https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcimg/2018/12/13/125/604592961544685797919_5t.jpg',
+      imgurl:'http://127.0.0.1:3000/images/meizhuang1/cainixihuan/04.jpg',
       title:'口红'
     },
     {
-      imgurl:'https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdc/267/083/465636076499083267/2/4987241135011-5.jpg',
+      imgurl:'http://127.0.0.1:3000/images/meizhuang1/cainixihuan/05.jpg',
       title:'面部精华'
     },
     {
-      imgurl:'https://h2.appsimg.com/a.appsimg.com/upload/merchandise/pdcimg/2019/01/09/191/389027741547022659270_5t.jpg',
+      imgurl:'http://127.0.0.1:3000/images/meizhuang1/cainixihuan/06.jpg',
       title:'护肤套装'
     }
   ]
@@ -651,61 +653,61 @@ router.get('/cainixihuan', function(req, res, next) {
 router.get('/gengduotuijian', function(req, res, next) {
   var arr = [
     {
-      imgurl:'https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/07/02/97/ias_156205115565873_1135x545_85.jpg',
+      imgurl:'http://127.0.0.1:3000/images/meizhuang1/gengduotuijian/01.jpg',
       dongxi:'贝玲妃Benefit彩妆专场  ',
       youhui:3,
       time:7    
     },
     {
-      imgurl:'https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/07/01/189/ias_156194623683048_1135x545_85.jpg',
+      imgurl:'http://127.0.0.1:3000/images/meizhuang1/gengduotuijian/02.jpg',
       dongxi:'SK-II化妆品专场',
       youhui:5.2,
       time:3    
     },
     {
-      imgurl:'https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2018/12/03/55/ias_154380810328305_1135x545_85.jpg',
+      imgurl:'http://127.0.0.1:3000/images/meizhuang1/gengduotuijian/03.jpg',
       dongxi:'古驰GUCCI香水专场',
       youhui:3,
       time:3    
     },
     {
-      imgurl:'https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/07/01/154/ias_156196224671204_1135x545_85.jpg',
+      imgurl:'http://127.0.0.1:3000/images/meizhuang1/gengduotuijian/04.jpg',
       dongxi:'祖玛珑JO MALONE香水专场',
       youhui:6.1,
       time:2    
     },
     {
-      imgurl:'https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/06/14/44/ias_156047731360509_1135x545_85.jpg',
+      imgurl:'http://127.0.0.1:3000/images/meizhuang1/gengduotuijian/05.jpg',
       dongxi:'IPSA茵芙莎化妆品专场',
       youhui:5.2,
       time:3    
     },
     {
-      imgurl:'https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/04/17/74/ias_155547296264492_1135x545_85.jpg',
+      imgurl:'http://127.0.0.1:3000/images/meizhuang1/gengduotuijian/06.jpg',
       dongxi:'安娜苏ANNASUI香水彩妆专场',
       youhui:4.7,
       time:2  
     },
     {
-      imgurl:'https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/06/06/128/ias_155981633713440_1135x545_85.jpg',
+      imgurl:'http://127.0.0.1:3000/images/meizhuang1/gengduotuijian/07.jpg',
       dongxi:'施华洛世奇SWAROVSKI 璀璨水晶饰品专场',
       youhui:7.5,
       time:3    
     },
     {
-      imgurl:'https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2018/10/31/63/ias_154097768629418_1135x545_85.jpg',
+      imgurl:'http://127.0.0.1:3000/images/meizhuang1/gengduotuijian/08.jpg',
       dongxi:'美国Origins悦木之源高端植物护肤专场',
       youhui:6.1,
       time:2    
     },
     {
-      imgurl:'https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2018/12/06/0/ias_154407900866565_1135x545_85.jpg',
+      imgurl:'http://127.0.0.1:3000/images/meizhuang1/gengduotuijian/09.jpg',
       dongxi:'加拿大MAC玩转色彩专场',
       youhui:3.7,
       time:2    
     },
     {
-      imgurl:'https://h2.appsimg.com/a.appsimg.com/upload/brand/upcb/2019/06/12/194/ias_156032813392174_1135x545_85.jpg',
+      imgurl:'http://127.0.0.1:3000/images/meizhuang1/gengduotuijian/10.jpg',
       dongxi:'韩国WHOO宫廷护肤专场',
       youhui:3,
       time:2    
@@ -719,8 +721,8 @@ router.get('/gengduotuijian', function(req, res, next) {
 // yetou接口
 router.get('/yetou', function(req, res, next) {
   var arr = [
-    '//h2.appsimg.com/b.appsimg.com/upload/mst/2019/07/03/12/32faee1caf405379dec4cade9533e2fe.jpg!75.webp',
-    '//h2.appsimg.com/b.appsimg.com/upload/mst/2019/07/03/161/3de2ea491e9f45bf7fc2bb91a32895a8.jpg!75.webp'   
+    'http://127.0.0.1:3000/images/meizhuang1/yetou/01.webp',
+    'http://127.0.0.1:3000/images/meizhuang1/yetou/02.webp'   
   ]
     res.send(arr)
 });
