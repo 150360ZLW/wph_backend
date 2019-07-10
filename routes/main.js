@@ -726,4 +726,205 @@ router.get('/yetou', function(req, res, next) {
   ]
     res.send(arr)
 });
+
+
+
+//聂苗苗 国际data
+//轮播组件
+router.get('/banner1', function(req, res, next) {
+  var arr = [
+      'http://127.0.0.1:3000/images/international/carasel/carasel.jpg'
+  ]
+    res.send(arr)
+});
+//展示图组件
+router.get('/playList', function(req, res, next) {
+  var arr = [
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/play/show1.jpg',
+      href: ''
+    },
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/play/show2.jpg',
+      href: ''
+    },
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/play/show3.jpg',
+      href: ''
+    },
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/play/show4.jpg',
+      href: ''
+    },
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/play/show5.jpg',
+      href: ''
+    }
+  ]
+    res.send(arr)
+});
+//左滑轮播
+router.get('/leftslide', function(req, res, next) {
+  var arr = [
+    {
+      img: 'http://127.0.0.1:3000/images/international/leftslide/slide1.jpg'
+    },
+    {
+      img: 'http://127.0.0.1:3000/images/international/leftslide/slide2.jpg'
+    },
+    {
+      img: 'http://127.0.0.1:3000/images/international/leftslide/slide3.jpg'
+    },
+    {
+      img: 'http://127.0.0.1:3000/images/international/leftslide/slide4.jpg'
+    },
+    {
+      img: 'http://127.0.0.1:3000/images/international/leftslide/slide5.jpg'
+    },
+    {
+      img: 'http://127.0.0.1:3000/images/international/leftslide/slide6.jpg'
+    }
+  ]
+    res.send(arr)
+});
+//快抢组件
+router.get('/grabList', function(req, res, next) {
+  var arr = [
+    {
+      id: 0,
+      img: 'http://127.0.0.1:3000/images/international/grab/grab1.jpg',
+      imgurl: 'http://127.0.0.1:3000/images/international/grab/grab2.png',
+      text: '快抢价',
+      money: '￥289'
+      },
+      {
+      id: 1,
+      img: 'http://127.0.0.1:3000/images/international/grab/grab3.jpg',
+      imgurl: 'http://127.0.0.1:3000/images/international/grab/grab4.png',
+      text: '快抢价',
+      money: '￥59'
+      },
+      {
+      id: 2,
+      img: 'http://127.0.0.1:3000/images/international/grab/grab5.jpg',
+      imgurl: 'http://127.0.0.1:3000/images/international/grab/grab6.png',
+      text: '快抢价',
+      money: '￥49'
+      },
+      {
+      id: 3,
+      img: 'http://127.0.0.1:3000/images/international/grab/grab7.jpg',
+      imgurl: 'http://127.0.0.1:3000/images/international/grab/grab8.png',
+      text: '快抢价',
+      money: '￥159'
+      }   
+  ]
+    res.send(arr)
+});
+//猜你喜欢组件
+router.get('/guessLike', function(req, res, next) {
+  var arr = [
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/guess/guess2.jpg',
+      text: '海外包包'
+    },
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/guess/guess3.jpg',
+      text: '面膜'
+    },
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/guess/guess4.jpg',
+      text: '防晒隔离'
+    },
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/guess/guess5.jpg',
+      text: '口红'
+    },
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/guess/guess6.jpg',
+      text: '面部精华'
+    },
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/guess/guess7.jpg',
+      text: '护肤套装'
+    }   
+  ]
+    res.send(arr)
+});
+//唯品国际组件
+router.get('/onlyproduct', function(req, res, next) {
+  var arr = [
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/product/product1.jpg',
+      text: '德国MCM箱包专场',
+      time: '剩8时',
+      discount: '7.7',
+      distext: '折起'
+    },
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/product/product2.jpg',
+      text: 'Tory Burch经典轻奢箱包专场',
+      time: '剩1天',
+      discount: '5.2',
+      distext: '折起'
+    },
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/product/product3.jpg',
+      text: '意大利Emporio Armani阿玛尼奢品手表',
+      time: '剩1天',
+      discount: '7',
+      distext: '折起'
+    },
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/product/product4.jpg',
+      text: '丹麦潘多拉Pandora轻奢饰品特卖专场',
+      time: '剩1天',
+      discount: '5.3',
+      distext: '折起'
+    },
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/product/product5.jpg',
+      text: '美国Tiffany经典轻奢珠宝特卖专场',
+      time: '剩1天',
+      discount: '4.9',
+      distext: '折起'
+    },
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/product/product6.jpg',
+      text: 'KENZO时尚鞋包混场',
+      time: '剩1天',
+      discount: '5.6',
+      distext: '折起'
+    },
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/product/product7.jpg',
+      text: '加拿大MAC玩转色彩专场',
+      time: '剩2天',
+      discount: '3.7',
+      distext: '折起'
+    },
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/product/product8.jpg',
+      text: '奢华洛世期SWAROVSKI璀璨水晶饰品专场',
+      time: '剩1天',
+      discount: '7.5',
+      distext: '折起'
+    },
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/product/product9.jpg',
+      text: '美国Origins悦木之源高端植物护肤砖茶女',
+      time: '剩2天',
+      discount: '6.1',
+      distext: '折起'
+    },
+    {
+      imgurl: 'http://127.0.0.1:3000/images/international/product/product10.jpg',
+      text: 'JBL时尚酷炫影音专场',
+      time: '剩28天',
+      discount: '4.7',
+      distext: '折起'
+    }   
+  ]
+    res.send(arr)
+});
 module.exports = router;
