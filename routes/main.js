@@ -927,7 +927,6 @@ router.get('/onlyproduct', function(req, res, next) {
   ]
     res.send(arr)
 });
-<<<<<<< HEAD
 //李沛钊
 router.get('/Mubanner', function(req, res, next) {
   var arr = [
@@ -1091,7 +1090,6 @@ var arr7=[
 res.send(arr7)
 })
 module.exports = router;
-=======
 
 //豆欣欣生活data
 /* 轮播 */
@@ -1294,4 +1292,3 @@ router.get('/six', function(req, res, next) {
   res.send(arr)
 });
 module.exports = router;
->>>>>>> 88cc64043c2ef9006faed7fadfb46d45a3cd60b2
