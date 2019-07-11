@@ -1304,4 +1304,131 @@ router.get('/six', function(req, res, next) {
     ]
   res.send(arr)
 });
+//翟龙伟  唯品奢
+/* GET homeone page. */
+router.get('/classname', function(req, res, next) {
+  var arr = [
+    'http://127.0.0.1:3000/images/weipinshe/homeone/1.jpg',
+        'http://127.0.0.1:3000/images/weipinshe/homeone/2.jpg'
+  ]
+    res.send(arr)
+});
+/* hometwo data*/
+router.get('/cataer', function(req, res, next) {
+  var arr = [
+     {
+      imgurl: 'http://127.0.0.1:3000/images/weipinshe/hometwo/3.jpg',
+      href: ''
+     },
+      {
+      imgurl: 'http://127.0.0.1:3000/images/weipinshe/hometwo/4.jpg',
+      href: ''
+     },
+     {
+      imgurl: 'http://127.0.0.1:3000/images/weipinshe/hometwo/5.jpg',
+      href: ''
+     }
+  ]
+    res.send(arr)
+});
+
+/*homethree data*/ 
+router.get('/native', function(req, res, next) {
+  var arr = [
+     {
+      imgurl: 'http://127.0.0.1:3000/images/weipinshe/homethree/6.jpg',
+      href: ''
+     },
+      {
+      imgurl: 'http://127.0.0.1:3000/images/weipinshe/homethree/7.jpg',
+      href: ''
+     },
+     {
+      imgurl: 'http://127.0.0.1:3000/images/weipinshe/homethree/8.jpg',
+      href: ''
+     },
+     {
+      imgurl: 'http://127.0.0.1:3000/images/weipinshe/homethree/9.jpg',
+      href: ''
+     }
+  ]
+    res.send(arr)
+});
+/*homefour data*/
+router.get('/liction', function(req, res, next) {
+  var arr = [
+    'http://127.0.0.1:3000/images/weipinshe/homefour/17.jpg'
+  ]
+    res.send(arr)
+});
+/*homefive data*/ 
+
+router.get('/ficion', function(req, res, next) {
+  var arr = [
+     {
+      imgurl: 'http://127.0.0.1:3000/images/weipinshe/homefive/10.jpg',
+      imgsmall: '',
+      href: '',
+      content:'【清仓特卖】蹀愫tigrisso女鞋专场',
+      timer:'剩2天',
+      number:'2.8',
+      rebate:'折起'
+     },
+     {
+      imgurl: 'http://127.0.0.1:3000/images/weipinshe/homefive/11.jpg',
+      imgsmall: '',
+      href: '',
+      content:'ANTEPRIMA 时装周当红品牌',
+      timer:'剩2天',
+      number:'3',
+      rebate:'折起'
+     },
+     {
+      imgurl: 'http://127.0.0.1:3000/images/weipinshe/homefive/12.jpg',
+      imgsmall: '',
+      href: '',
+      content:'MANGO来自西班牙的快时尚女装专场',
+      timer:'剩175天',
+      number:'2.8',
+      rebate:'折起'
+     },
+     {
+      imgurl: 'http://127.0.0.1:3000/images/weipinshe/homefive/13.jpg',
+      imgsmall: '',
+      href: '',
+      content:' 德国MCM箱包专场',
+      timer:'剩7时',
+      number:'7.7',
+      rebate:'折起'
+     },
+     {
+      imgurl: 'http://127.0.0.1:3000/images/weipinshe/homefive/14.jpg',
+      imgsmall: '',
+      href: '',
+      content:'GUESS 五折封顶专区',
+      timer:'剩2天',
+      number:'2.5',
+      rebate:'折起'
+     },
+     {
+      imgurl: 'http://127.0.0.1:3000/images/weipinshe/homefive/15.jpg',
+      imgsmall: '',
+      href: '',
+      content:'Tory Burch经典轻奢箱包专场',
+      timer:'剩1天',
+      number:'5.2',
+      rebate:'折起'
+     },
+     {
+      imgurl: 'http://127.0.0.1:3000/images/weipinshe/homefive/16.jpg',
+      imgsmall: '',
+      href: '',
+      content:'爱马仕集团旗下品牌上下奢品特卖-官方首次',
+      timer:'剩1天',
+      number:'1',
+      rebate:'折起'
+     }
+  ]
+    res.send(arr)
+});
 module.exports = router;
