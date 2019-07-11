@@ -743,6 +743,9 @@ router.get('/yetou', function(req, res, next) {
 //轮播组件
 router.get('/banner1', function(req, res, next) {
   var arr = [
+      'http://127.0.0.1:3000/images/international/carasel/carasel.jpg',
+      'http://127.0.0.1:3000/images/international/carasel/carasel.jpg',
+      'http://127.0.0.1:3000/images/international/carasel/carasel.jpg',
       'http://127.0.0.1:3000/images/international/carasel/carasel.jpg'
   ]
     res.send(arr)
