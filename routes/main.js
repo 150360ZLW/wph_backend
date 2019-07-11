@@ -390,6 +390,16 @@ router.get("/recommend", function(req, res, next) {
   res.send(arr);
 })
 
+router.get("/register", function(req, res, next) {
+  var arr =[ 
+    {
+      logo_bg: "url(http://127.0.0.1:3000/images/register/login_bg.jpg)",
+      logo: "http://127.0.0.1:3000/images/register/logo.png"
+    }
+  ];
+  res.send(arr);
+})
+
 // 田定茂
 // 轮播接口
 router.get('/tcarousel', function (req, res, next) {
