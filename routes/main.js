@@ -927,4 +927,166 @@ router.get('/onlyproduct', function(req, res, next) {
   ]
     res.send(arr)
 });
+//李沛钊
+router.get('/Mubanner', function(req, res, next) {
+  var arr = [
+      'http://127.0.0.1:3000/images/jiajv/lunbo/jiajv_img1.jpg',
+      '//h2.appsimg.com/a.appsimg.com/upload/flow/2019/07/05/20/15623066685452.jpg',
+      
+]
+  res.send(arr)
+});
+router.get('/Mufenlei',function(req,res,nesxt){
+  var arr1=[
+      {
+        imgUrl:'http://127.0.0.1:3000/images/jiajv/fenlei/img9.jpg',
+       
+      },
+      {
+        imgUrl:'http://127.0.0.1:3000/images/jiajv/fenlei/img1.gif'
+       
+      },
+      {
+        imgUrl:'http://127.0.0.1:3000/images/jiajv/fenlei/img1.jpg'
+     
+      },
+      {
+        imgUrl:'http://127.0.0.1:3000/images/jiajv/fenlei/img2.jpg'
+      
+      },
+      {
+        imgUrl:'http://127.0.0.1:3000/images/jiajv/fenlei/img3.jpg'
+        
+      },
+      {
+        imgUrl:'http://127.0.0.1:3000/images/jiajv/fenlei/img4.jpg'
+       
+      },
+      {
+        imgUrl:'http://127.0.0.1:3000/images/jiajv/fenlei/img5.jpg'
+        
+      },
+      {
+        imgUrl:'http://127.0.0.1:3000/images/jiajv/fenlei/img6.jpg'
+        
+      },
+      {
+        imgUrl:'http://127.0.0.1:3000/images/jiajv/fenlei/img7.jpg'
+        
+      },
+      {
+        imgUrl:'http://127.0.0.1:3000/images/jiajv/fenlei/img8.jpg'
+   
+      }
+  ]
+  res.send(arr1)
+});
+router.get('/jiaKuaiQiang',function(req,res,nesxt){
+  var arr2=[
+    [{img:'http://127.0.0.1:3000/images/jiajv/kuaiqiang/img5.jpg'}],
+  [{
+    img1:'http://127.0.0.1:3000/images/jiajv/kuaiqiang/img1.jpg',
+    img2:'http://127.0.0.1:3000/images/jiajv/kuaiqiang/img7.png',
+    span1:'快抢价',
+    span2:'￥69起'
+  },
+  {
+    img1:'http://127.0.0.1:3000/images/jiajv/kuaiqiang/img2.jpg',
+    img2:'http://127.0.0.1:3000/images/jiajv/kuaiqiang/img6.png',
+    span1:'快抢价',
+    span2:'￥29'
+  },
+    {
+      img1:'http://127.0.0.1:3000/images/jiajv/kuaiqiang/img3.jpg',
+      img2:'http://127.0.0.1:3000/images/jiajv/kuaiqiang/img9.png',
+      span1:'快抢价',
+    span2:'￥258'
+    },{
+      img1:'http://127.0.0.1:3000/images/jiajv/kuaiqiang/img4.jpg',
+      img2:'http://127.0.0.1:3000/images/jiajv/kuaiqiang/img8.png',
+      span1:'快抢价',
+    span2:'￥89'
+    }]]
+
+  res.send(arr2)
+})
+router.get('/Jiazuihou',function(req,res,nesxt){
+var arr3=[
+  {img:"http://127.0.0.1:3000/images/jiajv/zuihou/img001.gif"},
+  {img:'http://127.0.0.1:3000/images/jiajv/zuihou/img002.jpg'},
+  {img:'http://127.0.0.1:3000/images/jiajv/zuihou/img003.jpg'},
+  {img:'http://127.0.0.1:3000/images/jiajv/zuihou/img004.jpg'},
+
+]
+
+
+res.send(arr3)
+})
+
+router.get('/JiaJing',function(req,res,nesxt){
+var arr4=[
+  {img1:"http://127.0.0.1:3000/images/jiajv/fenlei/img10.jpg"},
+
+]
+
+
+res.send(arr4)
+})
+router.get('/JiaKouBei',function(req,res,nesxt){
+var arr5=[
+  {img1:"http://127.0.0.1:3000/images/jiajv/koubei/img1.jpg"},
+  {img1:"http://127.0.0.1:3000/images/jiajv/koubei/img2.gif"},
+  {img1:"http://127.0.0.1:3000/images/jiajv/koubei/img3.jpg"},
+  {img1:"http://127.0.0.1:3000/images/jiajv/koubei/img4.jpg"},
+  {img1:"http://127.0.0.1:3000/images/jiajv/koubei/img5.jpg"}
+
+]
+
+
+res.send(arr5)
+})
+
+router.get('/JiaDaPai',function(req,res,nesxt){
+var arr6=[
+  {img1:"http://127.0.0.1:3000/images/jiajv/dapai/img1.jpg"},
+  {img1:"http://127.0.0.1:3000/images/jiajv/dapai/img2.jpg"},
+  {img1:"http://127.0.0.1:3000/images/jiajv/dapai/img3.jpg"},
+  {img1:"http://127.0.0.1:3000/images/jiajv/dapai/img4.jpg"},
+  {img1:"http://127.0.0.1:3000/images/jiajv/dapai/img5.jpg"}
+
+]
+
+
+res.send(arr6)
+})
+
+router.get('/Jiaxunhuan',function(req,res,nesxt){
+var arr7=[
+  {img1:"http://127.0.0.1:3000/images/jiajv/xunhuan/img1.jpg",
+   span1:'美国康宁厨具 百年品质',
+   span2:'2019-10-1',
+   dazhe:'2.3' },
+   {img1:"http://127.0.0.1:3000/images/jiajv/xunhuan/img2.jpg",
+   span1:'膳魔师保温杯-最后疯抢专场',
+   span2:'2019-10-1',
+   dazhe:'2.7' },
+   {img1:"http://127.0.0.1:3000/images/jiajv/xunhuan/img3.jpg",
+   span1:'LOVO家纺-最后疯抢专场',
+   span2:'2019-10-1',
+   dazhe:'1.4' },
+   {img1:"http://127.0.0.1:3000/images/jiajv/xunhuan/img6.jpg",
+   span1:'艾维I.WILL家纺--最后疯抢专场',
+   span2:'2019-9-7',
+   dazhe:'1.3' },
+   {img1:"http://127.0.0.1:3000/images/jiajv/xunhuan/img5.jpg",
+   span1:'洁丽雅-最后疯抢专场',
+   span2:'2019-9-6',
+   dazhe:'2.3' }
+   
+
+]
+
+
+res.send(arr7)
+})
 module.exports = router;
