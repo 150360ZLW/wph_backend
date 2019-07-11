@@ -927,6 +927,7 @@ router.get('/onlyproduct', function(req, res, next) {
   ]
     res.send(arr)
 });
+<<<<<<< HEAD
 //李沛钊
 router.get('/Mubanner', function(req, res, next) {
   var arr = [
@@ -1090,3 +1091,207 @@ var arr7=[
 res.send(arr7)
 })
 module.exports = router;
+=======
+
+//豆欣欣生活data
+/* 轮播 */
+router.get('/banner2', function(req, res, next) {
+    var arr = [
+        'http://127.0.0.1:3000/images/household/banner/01-banner.jpg'
+    ]
+  res.send(arr)
+});
+
+/*分类 */
+router.get('/category2', function(req, res, next) {
+    var arr = [
+        {
+            imgurl:'http://127.0.0.1:3000/images/household/livecategory/1.png',
+            href:'零食'
+        },
+        {
+            imgurl:'http://127.0.0.1:3000/images/household/livecategory/2.png',
+            href:'茗茶'
+        },
+        {
+            imgurl:'http://127.0.0.1:3000/images/household/livecategory/3.png',
+            href:'保健营养'
+        },
+        {
+            imgurl:'http://127.0.0.1:3000/images/household/livecategory/4.png',
+            href:'食材速食'
+        },
+        {
+            imgurl:'http://127.0.0.1:3000/images/household/livecategory/5.png',
+            href:'美酒'
+        },
+        {
+            imgurl:'http://127.0.0.1:3000/images/household/livecategory/6.jpg',
+            href:'滋补'
+        },
+        {
+            imgurl:'http://127.0.0.1:3000/images/household/livecategory/7.png',
+            href:'谷物冲调'
+        },
+        {
+            imgurl:'http://127.0.0.1:3000/images/household/livecategory/8.png',
+            href:'海外营养'
+        },
+        {
+            imgurl:'http://127.0.0.1:3000/images/household/livecategory/9.png',
+            href:'宠物生活'
+        },
+        {
+            imgurl:'http://127.0.0.1:3000/images/household/livecategory/10.jpg',
+            href:'更多'
+        }
+    ]
+  res.send(arr)
+});
+
+/*第三部分 */
+router.get('/three', function(req, res, next) {
+    var arr = [
+        { 
+            id:0,
+            img:'http://127.0.0.1:3000/images/household/livethree/live-1.jpg',
+            imgg:'http://127.0.0.1:3000/images/household/livethree/live-1-1.png',
+            wenzi:'抢购价',
+            price:88
+        },
+        {
+            id:1,
+            img:'http://127.0.0.1:3000/images/household/livethree/live-2.jpg',
+            imgg:'http://127.0.0.1:3000/images/household/livethree/live-2-2.png',
+            wenzi:'抢购价',
+            price:49
+        },
+        {
+            id:2,
+            img:'http://127.0.0.1:3000/images/household/livethree/live-3.jpg',
+            imgg:'http://127.0.0.1:3000/images/household/livethree/live-3-3.png',
+            wenzi:'抢购价',
+            price:39
+        },
+        {
+            id:3,
+            img:'http://127.0.0.1:3000/images/household/livethree/live-4.jpg',
+            imgg:'http://127.0.0.1:3000/images/household/livethree/live-4-4.png',
+            wenzi:'抢购价',
+            price:99
+        }
+    ]
+  res.send(arr)
+});
+
+// 第四部分
+router.get('/four', function(req, res, next) {
+    var arr = [
+               'http://127.0.0.1:3000/images/household/livefour/01-four.jpg',
+               'http://127.0.0.1:3000/images/household/livefour/03-four.jpg'  
+    ]
+  res.send(arr)
+});
+
+// 第五部分
+router.get('/five', function(req, res, next) {
+    var arr = [
+        {
+          id:0,
+          fiveimg:'http://127.0.0.1:3000/images/household/livefive/01-five.jpg'
+        },
+        {
+          id:1,
+          fiveimg: 'http://127.0.0.1:3000/images/household/livefive/02-five.jpg'
+        } 
+    ]
+  res.send(arr)
+});
+
+// 第六部分重复
+router.get('/six', function(req, res, next) {
+    var arr = [
+       {
+        id:0,
+        img:'http://127.0.0.1:3000/images/household/livesix/01-six.jpg',
+        title:'贡天下优选健康美食专场',
+        day:'剩2天',
+        discount:1.7,
+        zhe:'折起'
+       },
+       {
+        id:1,
+        img:'http://127.0.0.1:3000/images/household/livesix/02-six.jpg',
+        title:'百草味休闲零食专场',
+        day:'剩1天',
+        discount:1.8,
+        zhe:'折起'
+       },
+       {
+        id:2,
+        img:'http://127.0.0.1:3000/images/household/livesix/03-six.jpg',
+        title:'澳洲德运天然牧场乳品专场',
+        day:'剩9时',
+        discount:2.8,
+        zhe:'折起'
+       },
+       {
+        id:3,
+        img:'http://127.0.0.1:3000/images/household/livesix/04-six.jpg',
+        title:'日本医食同源膳食营养专场',
+        day:'剩2天',
+        discount:2.6,
+        zhe:'折起'
+       },
+       {
+        id:4,
+        img:'http://127.0.0.1:3000/images/household/livesix/05-six.jpg',
+        title:'海底捞-好火锅自己会说话',
+        day:'剩1天',
+        discount:2.3,
+        zhe:'折起'
+       },
+       {
+        id:5,
+        img:'http://127.0.0.1:3000/images/household/livesix/06-six.jpg',
+        title:'小罐茶常态专场',
+        day:'剩3天',
+        discount:'一口价',
+       },
+       {
+        id:6,
+        img:'http://127.0.0.1:3000/images/household/livesix/07-six.jpg',
+        title:'三浦堂美味专场',
+        day:'剩3时',
+        discount:2.7,
+        zhe:'折起'
+       },
+       {
+        id:7,
+        img:'http://127.0.0.1:3000/images/household/livesix/08-six.jpg',
+        title:'轩尼诗洋酒专场',
+        day:'剩2天',
+        discount:5.7,
+        zhe:'折起'
+       },
+       {
+        id:8,
+        img:'http://127.0.0.1:3000/images/household/livesix/09-six.jpg',
+        title:'甄选健康零食专场',
+        day:'剩1天',
+        discount:6.8,
+        zhe:'折起'
+       },
+       {
+        id:9,
+        img:'http://127.0.0.1:3000/images/household/livesix/10-six.jpg',
+        title:'一粥一饭品味生活专场',
+        day:'剩8时',
+        discount:2.3,
+        zhe:'折起'
+       }
+    ]
+  res.send(arr)
+});
+module.exports = router;
+>>>>>>> 88cc64043c2ef9006faed7fadfb46d45a3cd60b2
